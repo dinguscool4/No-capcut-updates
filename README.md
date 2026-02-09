@@ -1,19 +1,10 @@
 # no capcut updates
 a lightweight python script to block capcut from automatically updating, ensuring you stay on your preferred version.
 
-## features
-automated blocking: prevents capcut's update executable from running.
+## installation
 
-persistent: maintains your version choice without manual intervention.
+make sure you have [python](https://www.python.org/downloads/) installed
 
-simple: single-file execution.
+download the version of [capcut](https://github.com/ProjectBukkit/CapcutVersions) you want.
 
-## usage
-ensure you have python installed.
-
-run the script with administrative privileges:
-
-Bash
-python main.py
-## how it works
-the script identifies the capcut update directory and modifies permissions or replaces the executable with a dummy file to break the update cycle.
+download and run the script, the script identifies the capcut update directory and replaces the executable to update with a dummy file to stop it from updating.
